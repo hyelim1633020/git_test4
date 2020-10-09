@@ -13,3 +13,9 @@ public class Main {
         return a;
     }
 
+    public static void main(String[] args) {
+        int[] a = createArray(10, 1, 10);
+        Sort.sort(a);
+        System.out.println(Arrays.toString(a));
+    }
+}
